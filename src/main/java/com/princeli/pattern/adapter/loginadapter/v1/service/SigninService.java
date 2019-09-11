@@ -28,6 +28,6 @@ public class SigninService {
      * @return
      */
     public ResultMsg login(String username,String password){
-        return null;
+        return new ResultMsg(200,"登陆成功",new Member());
     }
 }
